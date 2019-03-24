@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../Imagenes/img2.jpeg");
+
+}
+.menu-wrapper ul{
+  list-style: none;
+}
+
+#menu >li{
+  display: block;
+  position:relative;
+    padding: 25px;
+}
+
+li ul a{
+  display: block;
+}
+
+.menu-wrapper{
+  color:#EFF5FB;
+  transition: 0.3s;
+  font-size: 20px;
+ }
+
+
+#menu li a:hover{
+  padding: .3em;
+  background: transparent;
+  border-bottom-style: none;
+  text-align: center;
+  text-decoration:none;
+ border-top:  0px solid #FDFEFE;
+  border-right: 0px solid #FDFEFE ;
+
+}

@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../Imagenes/img2.jpeg");
+  font-family: sans-serif;
+}
+
+
+.tabla_equipos{
+  font-family: sans-serif;
+  border-collapse: collapse;
+  border-top: 30px;
+  background-color: white;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.tabla_equipos thead{
+background-color: #D2B4DE;
+border-bottom: #D4E6F1   7px solid;
+color: black;
+}
+
+.tabla_equipos tr:nth-child(even){
+  background: #EAF2F8  ;
+}
+
+.tabla_equipos tr:hover td{
+background-color: #E8DAEF  ;
+color: black ;
+transition: 0.3s;
+}
+
+
+.tablahisto{
+width: 50%;
+margin-top: 100px;
+margin-bottom: 30px;
+margin-left: 300px;
+margin-right: 300px;
+  }
+
+
+  .tabla_equipos{
+    width: 100%;
+    height: 100%;
+      }
+
+  .tablahisto .tabla_equipos{
+   top:50px;
+
+
+  }
